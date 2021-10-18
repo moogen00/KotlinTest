@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         val nick = User("jjjjj")
         println("nickname1 : ${nick.nickname}")
         println("nickname2 : ${nick.name}")
-
+        println("nickname3 : ${nick.name}")
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
